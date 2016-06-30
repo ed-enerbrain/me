@@ -1,0 +1,11 @@
+$main-bg: #DDDDDD;
+$main-color: #111111;
+body{
+  background-color: $main-bg;
+  color: $main-color;
+  margin: 0 auto;
+}
+
+#main-container {
+  width: 1280px;
+}

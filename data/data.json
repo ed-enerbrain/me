@@ -1,0 +1,14 @@
+{
+  "data": "interesting data",
+  "nested": {
+    "one": "this is one",
+    "two": "this is two"
+  },
+  "array": [
+    "first",
+    "second",
+    {
+      "crazy": "object"
+    }
+  ]
+}
