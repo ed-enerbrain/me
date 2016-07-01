@@ -1,0 +1,14 @@
+@mixin flex($direction, $first-align, $second-align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $first-align;
+  align-items: $second-align;
+}
+
+@mixin flexCenter($direction) {
+  @include flex($direction, center, center);
+}
+
+@mixin flexSpaced($direction) {
+  @include flex($direction, space-around, center);
+}

@@ -20,6 +20,10 @@
   left: 6px;
   background: #EAEAEA;
   position: absolute; }
+  .radial-inner-bg:after {
+    content: '%';
+    font-size: 10pt;
+    padding-bottom: 2pt; }
 
 .progress-0 {
   background-image: linear-gradient(90deg, #EAEAEA 50%, transparent 50%, transparent), linear-gradient(90deg, #41ADE5 50%, #EAEAEA 50%, #EAEAEA); }

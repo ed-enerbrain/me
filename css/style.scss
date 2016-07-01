@@ -1,20 +1,56 @@
 @import "config";
+@import "mixins";
 body {
   background-color: $main-bg;
-  color: $main-color;
+  color: $main-font-color;
   margin: 0 auto;
-  display: flex;
-  align-content: space-around;
+  @include flexCenter(column);
 }
 #main-container {
   width: 960px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flexCenter(column);
+
+  #main-content {
+    width: 100%;
+    @include flexSpaced(row);
+  }
 }
+
+#experiences {
+  flex: 50;
+  @include flexCenter(column-reverse);
+  .experience {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    .timeline {
+      width: $timeline-width;
+      margin: 0 (2 * $timeline-width);
+      height: inherit;
+      background-color: $main-color;
+      position: relative;
+      .timeline-event {
+        position: absolute;
+        top: 33%;
+        width: $timeline-size;
+        margin-left: ($timeline-size - $timeline-width) / -2;
+        border-radius: $timeline-size/2;
+        height: $timeline-size;
+        background-color: $main-color;
+      }
+    }
+    .experience-info {
+      width: 100%;
+
+    }
+  }
+}
+
 #skills {
   display: flex;
-  flex-direction: column;}
+  flex: 35;
+  flex-direction: column;
+}
 
 .skill-progress {
   //background: rgba(0,0,0,0.1);
@@ -26,4 +62,3 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
