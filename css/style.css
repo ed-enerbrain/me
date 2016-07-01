@@ -41,12 +41,20 @@ body {
       position: relative; }
       #experiences .experience .timeline .timeline-event {
         position: absolute;
-        top: 33%;
         width: 24px;
         margin-left: -9px;
-        border-radius: 12px;
-        height: 24px;
-        background-color: #41ADE5; }
+        height: 85%;
+        border: solid 3px #41ADE5;
+        border-right: none;
+        border-left: none;
+        bottom: 8%;
+        z-index: 10;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between; }
+        #experiences .experience .timeline .timeline-event span {
+          margin-left: -27px;
+          font-style: italic; }
     #experiences .experience .experience-info {
       flex: 80;
       display: flex;

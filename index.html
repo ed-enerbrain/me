@@ -37,15 +37,17 @@
     {{#each this}}
     <div class="experience">
         <div class="timeline">
-            <div class="timeline-event"></div>
+            <div class="timeline-event">
+                <span>{{start}}</span>
+                <span>{{end}}</span>
+            </div>
         </div>
         <div class="experience-info">
             <div class="experience-heading">
                 <h5>{{name}}</h5>
-                <div class="logo" style="background-image: url('{{logo}}')"></div>
+                <a href="{{url}}" target="_blank" title="{{where}}" class="logo" style="background-image: url('{{logo}}')"></a>
             </div>
             <div class="experience-subheading">
-                <p>From: {{start}} to {{end}}</p>
                 <p>{{where}}</p>
             </div>
             <p class="desc">

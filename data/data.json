@@ -132,7 +132,8 @@
         "Developing UI for banks"
       ],
       "logo": "imgs/isp.png",
-      "where": "Intesa SanPaolo"
+      "where": "Intesa SanPaolo",
+      "url": "http://www.intesasanpaolo.it"
     },
     {
       "start": "2004",
@@ -145,7 +146,8 @@
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
       "logo": "imgs/reale.png",
-      "where": "Reale Mutua"
+      "where": "Reale Mutua",
+      "url": "http://www.realemutua.it"
     },
     {
       "start": "2005",
@@ -156,7 +158,8 @@
         "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum."
       ],
       "logo": "imgs/apple.png",
-      "where": "Apple"
+      "where": "Apple",
+      "url": "http://www.apple.com"
     },
     {
       "start": "2007",
@@ -168,7 +171,8 @@
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
       "logo": "imgs/apple.png",
-      "where": "Apple"
+      "where": "Apple",
+      "url": "http://www.apple.com"
     },
     {
       "start": "2010",
@@ -180,11 +184,12 @@
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
       "logo": "imgs/google.png",
-      "where": "Google"
+      "where": "Google",
+      "url": "http://www.google.com"
     },
     {
       "start": "2015",
-      "end": "still working",
+      "end": "now",
       "name": "God Mode",
       "desc": [
         "I'm Alpha and Omega",
@@ -192,7 +197,8 @@
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
       "logo": "imgs/nwo.png",
-      "where": "New World Order"
+      "where": "New World Order",
+      "url": "http://www.nwo.com"
     }
   ]
 }

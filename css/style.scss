@@ -31,12 +31,22 @@ body {
       position: relative;
       .timeline-event {
         position: absolute;
-        top: 33%;
         width: $timeline-size;
         margin-left: ($timeline-size - $timeline-width) / -2;
-        border-radius: $timeline-size/2;
-        height: $timeline-size;
-        background-color: $main-color;
+        height: 85%;
+        border: solid $timeline-width / 2 $main-color;
+        border-right: none;
+        border-left: none;
+        bottom: 8%;
+        z-index: 10;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+        span {
+          margin-left: -4.5 * $timeline-width;
+          font-style: italic;
+        }
       }
     }
     .experience-info {
