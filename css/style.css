@@ -20,14 +20,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: flex-start; }
 
 #experiences {
-  flex: 50;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 50%; }
   #experiences .experience {
     display: flex;
     flex-direction: row;
@@ -92,7 +92,7 @@ body {
 
 #skills {
   display: flex;
-  flex: 35;
+  width: 33%;
   flex-direction: column; }
   #skills p.info {
     font-size: 16pt;
