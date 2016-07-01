@@ -21,13 +21,11 @@ body {
   flex: 50;
   @include flexCenter(column-reverse);
   .experience {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
+    @include flex(row, space-between, stretch);
+    width: 100%;
     .timeline {
       width: $timeline-width;
-      margin: 0 (2 * $timeline-width);
-      height: inherit;
+      margin: 0 (2 * $timeline-width) 0 2em;
       background-color: $main-color;
       position: relative;
       .timeline-event {
@@ -41,8 +39,10 @@ body {
       }
     }
     .experience-info {
-      width: 100%;
+      flex: 80;
       @include flexSpaced(column);
+      box-shadow: 4px 6px 7px -5px;
+      margin: 1.5em 1em;
       .experience-heading {
         width: 100%;
         @include flexSpaced(row);
