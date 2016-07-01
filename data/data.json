@@ -1,14 +1,111 @@
 {
-  "data": "interesting data",
-  "nested": {
-    "one": "this is one",
-    "two": "this is two"
+  "bio": {
+    "greetings": "Hi, this is",
+    "name": "Mario",
+    "surname": "Rossi",
+    "short_desc": "Experienced UI/UX Designer since 2003",
+    "birth_date": "01/09/1982",
+    "email": "mario.rossi@rossimario.dotcom",
+    "website": "http://rossimario.dotcom"
   },
-  "array": [
-    "first",
-    "second",
+  "skills": {
+    "frontend": {
+      "info": "FrontEnd useless Skills",
+      "skill_list": [
+        {
+          "name": "vanillaJS",
+          "value": "80"
+        },
+        {
+          "name": "jQuery",
+          "value": "75"
+        },
+        {
+          "name": "AngularJS",
+          "value": "60"
+        }
+      ]
+    },
+    "UI": {
+      "info": "UI Experiences",
+      "skill_list": [
+        {
+          "name": "HTML5",
+          "value": "80"
+        },
+        {
+          "name": "CSS3",
+          "value": "85"
+        },
+        {
+          "name": "SCSS",
+          "value": "55"
+        },
+        {
+          "name": "LESSCSS",
+          "value": "50"
+        }
+      ]
+    },
+    "backend": {
+      "info": "Nope",
+      "skill_list": [
+        {
+          "name": "nodeJS",
+          "value": "30"
+        },
+        {
+          "name": "Express",
+          "value": "30"
+        },
+        {
+          "name": "php",
+          "value": "25"
+        },
+        {
+          "name": "python",
+          "value": "10"
+        },
+        {
+          "name": "java",
+          "value": "65"
+        }
+      ]
+    },
+    "database": {
+      "info": "Nope",
+      "skill_list":[
+        {
+          "name": "MySQL",
+          "value": "55"
+        },
+        {
+          "name": "MongoDB",
+          "value": "30"
+        }
+      ]
+    },
+    "ide": {
+      "info": "Nope",
+      "skill_list":[
+        {
+          "name": "eclipse",
+          "value": "75"
+        },
+        {
+          "name": "intelliJ",
+          "value": "80"
+        }
+      ]
+    }
+  },
+  "experiences": [
     {
-      "crazy": "object"
+      "start": "2003",
+      "end": "2003",
+      "name": "Junior UI Designer",
+      "desc": "Developing UI for banks",
+      "logo": "imgs/isp.png"
     }
   ]
 }

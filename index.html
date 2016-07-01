@@ -7,12 +7,50 @@
 
         <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
         <link type="text/css" href="css/style.css" rel="stylesheet">
+        <link type="text/css" href="css/radial.css" rel="stylesheet">
 
         <title>This is ME</title>
     </head>
     <body>
         <div id="main-container">
-            <h1>This is ME</h1>
+            <div id="bio"></div>
+            <div id="experiences"></div>
+            <div id="skills">
+            </div>
         </div>
     </body>
 </html>
+
+<script id="bio-template" type="text/x-handlebars-template">
+    <h1>{{greetings}} {{name}} {{surname}}</h1>
+    <q>{{short_desc}}</q>
+    <p>
+        <a href="mailto: {{email}}">{{email}}</a><br/>
+        <a href="{{website}}" target="_blank">{{website}}</a>
+    </p>
+</script>
+<script id="experiences-template" type="text/x-handlebars-template">
+    {{#each this}}
+    <div class="experience">
+        <h3>{{name}}</h3>
+        <p>{{description}}</p>
+        <p>From: {{start}} to {{end}}</p>
+        <div class="logo" style="background-image: url('{{logo}}')"></div>
+    </div>
+    {{/each}}
+</script>
+<script id="skills-template" type="text/x-handlebars-template">
+    {{#each this}}
+        <p>{{info}}</p>
+        <div class="skill-list">
+            {{#each skill_list}}
+            <div class="skill-progress">
+                <p>{{name}}</p>
+                <div class="item progress-{{value}}">
+                    <div class="radial-inner-bg">{{value}}</div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</script>
