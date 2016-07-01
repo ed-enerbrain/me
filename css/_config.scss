@@ -1,10 +1,14 @@
 $main-bg: #EAEAEA;
-$main-color: #111111;
+$main-color: #41ADE5;
+$main-font-color: #111111;
 
+// timeline
+$timeline-width: 6px;
+$timeline-size: 24px;
 
 // radial
 $size: 64px;
 $border-size: 6px;
 $inner-size: $size - (2 * $border-size);
-$color: #41ADE5;
+$color: $main-color;
 $background: $main-bg;

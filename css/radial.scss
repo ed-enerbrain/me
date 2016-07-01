@@ -22,6 +22,11 @@
   left: $border-size;
   background: $background;
   position: absolute;
+  &:after {
+    content: '%';
+    font-size: 10pt;
+    padding-bottom: 2pt;
+  }
 }
 
 $step: 1; // step of % for created classes

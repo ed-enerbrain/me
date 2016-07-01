@@ -104,7 +104,64 @@
       "start": "2003",
       "end": "2003",
       "name": "Junior UI Designer",
-      "desc": "Developing UI for banks",
+      "desc": [
+        "Developing UI for banks"
+      ],
+      "logo": "imgs/isp.png"
+    },
+    {
+      "start": "2004",
+      "end": "2005",
+      "name": "UI/UX Designer",
+      "desc": [
+        "Developing UI and UX for big insurances company",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
+        "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum.",
+        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+      ],
+      "logo": "imgs/isp.png"
+    },
+    {
+      "start": "2005",
+      "end": "2008",
+      "name": "Senior UI/UX Designer",
+      "desc": [
+        "I'm starting getting really good at this shit",
+        "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum."
+      ],
+      "logo": "imgs/isp.png"
+    },
+    {
+      "start": "2007",
+      "end": "2009",
+      "name": "Guru UX",
+      "desc": [
+        "So much expertise that people need me",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
+        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+      ],
+      "logo": "imgs/isp.png"
+    },
+    {
+      "start": "2010",
+      "end": "2014",
+      "name": "CEO",
+      "desc": [
+        "Leading the world",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
+        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+      ],
+      "logo": "imgs/isp.png"
+    },
+    {
+      "start": "2015",
+      "end": "still working",
+      "name": "God Mode",
+      "desc": [
+        "I'm Alpha and Omega",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
+        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+      ],
       "logo": "imgs/isp.png"
     }
   ]
