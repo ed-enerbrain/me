@@ -41,7 +41,30 @@ body {
     }
     .experience-info {
       width: 100%;
-
+      @include flexSpaced(column);
+      .experience-heading {
+        width: 100%;
+        @include flexSpaced(row);
+        h5 {
+          flex: 50;
+          text-align: center;
+        }
+        .logo {
+          flex: 50;
+          height: 48px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+      .experience-subheading {
+        width: 100%;
+        @include flexSpaced(row);
+        p {
+          flex: 50;
+          text-align: center;
+        }
+      }
     }
   }
 }
@@ -50,6 +73,13 @@ body {
   display: flex;
   flex: 35;
   flex-direction: column;
+  p.info {
+    font-size: 16pt;
+    margin: .5em 2em;
+  }
+  p.bold {
+    font-weight: bolder;
+  }
 }
 
 .skill-progress {

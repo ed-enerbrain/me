@@ -40,25 +40,31 @@
             <div class="timeline-event"></div>
         </div>
         <div class="experience-info">
-            <h5>{{name}}</h5>
-            <p>From: {{start}} to {{end}}</p>
+            <div class="experience-heading">
+                <h5>{{name}}</h5>
+                <div class="logo" style="background-image: url('{{logo}}')"></div>
+            </div>
+            <div class="experience-subheading">
+                <p>From: {{start}} to {{end}}</p>
+                <p>{{where}}</p>
+            </div>
+
             <p>
                 {{#each desc}}
                     {{this}}<br/>
                 {{/each}}
             </p>
-            <div class="logo" style="background-image: url('{{logo}}')"></div>
         </div>
     </div>
     {{/each}}
 </script>
 <script id="skills-template" type="text/x-handlebars-template">
     {{#each this}}
-        <p>{{info}}</p>
+        <p class="info">{{info}}</p>
         <div class="skill-list">
             {{#each skill_list}}
             <div class="skill-progress">
-                <p>{{name}}</p>
+                <p {{#ifCond value '>' 59}}class='bold'{{/ifCond}}>{{name}}</p>
                 <div class="item progress-{{value}}">
                     <div class="radial-inner-bg">{{value}}</div>
                 </div>

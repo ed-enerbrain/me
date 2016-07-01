@@ -45,12 +45,45 @@ body {
         height: 24px;
         background-color: #41ADE5; }
     #experiences .experience .experience-info {
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      #experiences .experience .experience-info .experience-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        #experiences .experience .experience-info .experience-heading h5 {
+          flex: 50;
+          text-align: center; }
+        #experiences .experience .experience-info .experience-heading .logo {
+          flex: 50;
+          height: 48px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center; }
+      #experiences .experience .experience-info .experience-subheading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        #experiences .experience .experience-info .experience-subheading p {
+          flex: 50;
+          text-align: center; }
 
 #skills {
   display: flex;
   flex: 35;
   flex-direction: column; }
+  #skills p.info {
+    font-size: 16pt;
+    margin: .5em 2em; }
+  #skills p.bold {
+    font-weight: bolder; }
 
 .skill-list {
   display: flex;

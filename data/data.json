@@ -23,6 +23,22 @@
         {
           "name": "AngularJS",
           "value": "60"
+        },
+        {
+          "name": "Handlebars",
+          "value": "65"
+        },
+        {
+          "name": "EXTJS",
+          "value": "45"
+        },
+        {
+          "name": "UnderScoreJS",
+          "value": "55"
+        },
+        {
+          "name": "Angular 2",
+          "value": "33"
         }
       ]
     },
@@ -48,7 +64,7 @@
       ]
     },
     "backend": {
-      "info": "Nope",
+      "info": "Backend",
       "skill_list": [
         {
           "name": "nodeJS",
@@ -73,7 +89,7 @@
       ]
     },
     "database": {
-      "info": "Nope",
+      "info": "Database",
       "skill_list":[
         {
           "name": "MySQL",
@@ -86,7 +102,7 @@
       ]
     },
     "ide": {
-      "info": "Nope",
+      "info": "IDE",
       "skill_list":[
         {
           "name": "eclipse",
@@ -95,6 +111,14 @@
         {
           "name": "intelliJ",
           "value": "80"
+        },
+        {
+          "name": "NetBeans",
+          "value": "40"
+        },
+        {
+          "name": "Sencha Architect",
+          "value": "50"
         }
       ]
     }
@@ -107,7 +131,8 @@
       "desc": [
         "Developing UI for banks"
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/isp.png",
+      "where": "Intesa SanPaolo"
     },
     {
       "start": "2004",
@@ -119,7 +144,8 @@
         "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum.",
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/reale.png",
+      "where": "Reale Mutua"
     },
     {
       "start": "2005",
@@ -129,7 +155,8 @@
         "I'm starting getting really good at this shit",
         "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum."
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/apple.png",
+      "where": "Apple"
     },
     {
       "start": "2007",
@@ -140,7 +167,8 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/apple.png",
+      "where": "Apple"
     },
     {
       "start": "2010",
@@ -151,7 +179,8 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/google.png",
+      "where": "Google"
     },
     {
       "start": "2015",
@@ -162,7 +191,8 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
         "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
       ],
-      "logo": "imgs/isp.png"
+      "logo": "imgs/nwo.png",
+      "where": "New World Order"
     }
   ]
 }
