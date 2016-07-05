@@ -23,80 +23,12 @@ body {
     align-items: flex-start; }
 
 #experiences {
+  width: 66%;
+  position: relative;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  width: 50%; }
-  #experiences .experience {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    width: 100%; }
-    #experiences .experience .timeline {
-      width: 6px;
-      margin: 0 12px 0 2em;
-      background-color: #41ADE5;
-      position: relative; }
-      #experiences .experience .timeline .timeline-event {
-        position: absolute;
-        width: 24px;
-        margin-left: -9px;
-        height: 85%;
-        border: solid 3px #41ADE5;
-        border-right: none;
-        border-left: none;
-        bottom: 8%;
-        z-index: 10;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between; }
-        #experiences .experience .timeline .timeline-event span {
-          margin-left: -27px;
-          font-style: italic; }
-    #experiences .experience .experience-info {
-      flex: 80;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      box-shadow: 4px 6px 7px -5px;
-      margin: 1.5em 1em; }
-      #experiences .experience .experience-info .experience-heading {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center; }
-        #experiences .experience .experience-info .experience-heading h5 {
-          flex: 50;
-          text-align: center; }
-        #experiences .experience .experience-info .experience-heading .logo {
-          flex: 50;
-          height: 32px;
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center; }
-      #experiences .experience .experience-info .experience-subheading {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center; }
-        #experiences .experience .experience-info .experience-subheading p {
-          flex: 50;
-          text-align: center; }
-      #experiences .experience .experience-info .desc {
-        margin: 0.3em 0.3em 1em 1.4em; }
-  #experiences .experience:last-child .timeline:before {
-    content: '';
-    width: 6px;
-    height: 200px;
-    background: linear-gradient(to bottom, transparent, #41ADE5);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    position: absolute;
-    bottom: 100%; }
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
 
 #skills {
   display: flex;
@@ -116,5 +48,86 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+
+.experiences-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 50%; }
+  .experiences-container .experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%; }
+    .experiences-container .experience .timeline {
+      width: 6px;
+      margin: 0 12px 0 2em;
+      background-color: #41ADE5;
+      position: relative; }
+      .experiences-container .experience .timeline .timeline-event {
+        position: absolute;
+        width: 24px;
+        margin-left: -9px;
+        height: 85%;
+        border: solid 3px #41ADE5;
+        border-right: none;
+        border-left: none;
+        bottom: 8%;
+        z-index: 10;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between; }
+        .experiences-container .experience .timeline .timeline-event span {
+          margin-left: -27px;
+          font-style: italic; }
+    .experiences-container .experience .experience-info {
+      flex: 80;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 4px 6px 7px -5px;
+      margin: 1.5em 1em; }
+      .experiences-container .experience .experience-info .experience-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .experiences-container .experience .experience-info .experience-heading h5 {
+          flex: 50;
+          text-align: center; }
+        .experiences-container .experience .experience-info .experience-heading .logo {
+          flex: 50;
+          height: 32px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center; }
+      .experiences-container .experience .experience-info .experience-subheading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .experiences-container .experience .experience-info .experience-subheading p {
+          flex: 50;
+          text-align: center; }
+      .experiences-container .experience .experience-info .desc {
+        margin: 0.3em 0.3em 1em 1.4em; }
+  .experiences-container .experience:last-child .timeline:before {
+    content: '';
+    width: 6px;
+    height: 200px;
+    background: linear-gradient(to bottom, transparent, #41ADE5);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    bottom: 100%; }
+
+#experiences-canvas {
+  background: white;
+  position: absolute;
+  left: 15px; }
 
 /*# sourceMappingURL=style.css.map */

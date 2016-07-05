@@ -34,30 +34,27 @@
     </p>
 </script>
 <script id="experiences-template" type="text/x-handlebars-template">
-    {{#each this}}
-    <div class="experience">
-        <div class="timeline">
-            <div class="timeline-event">
-                <span>{{start}}</span>
-                <span>{{end}}</span>
-            </div>
-        </div>
-        <div class="experience-info">
-            <div class="experience-heading">
-                <h5>{{name}}</h5>
-                <a href="{{url}}" target="_blank" title="{{where}}" class="logo" style="background-image: url('{{logo}}')"></a>
-            </div>
-            <div class="experience-subheading">
-                <p>{{where}}</p>
-            </div>
-            <p class="desc">
-                {{#each desc}}
+    <canvas id="experiences-canvas"></canvas>
+    <div class="experiences-container">
+        {{#each this}}
+        <div class="experience">
+            <div class="experience-info">
+                <div class="experience-heading">
+                    <h5>{{name}}</h5>
+                    <a href="{{url}}" target="_blank" title="{{where}}" class="logo" style="background-image: url('{{logo}}')"></a>
+                </div>
+                <div class="experience-subheading">
+                    <p>{{where}}</p>
+                </div>
+                <p class="desc">
+                    {{#each desc}}
                     {{this}}<br/>
-                {{/each}}
-            </p>
+                    {{/each}}
+                </p>
+            </div>
         </div>
+        {{/each}}
     </div>
-    {{/each}}
 </script>
 <script id="skills-template" type="text/x-handlebars-template">
     {{#each this}}

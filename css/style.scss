@@ -19,6 +19,40 @@ body {
   }
 }
 #experiences {
+  width: 66%;
+  position: relative;
+  @include flexSpaced(row);
+}
+
+#skills {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  p.info {
+    font-size: 16pt;
+    margin: .5em 2em;
+  }
+  p.bold {
+    font-weight: bolder;
+  }
+}
+
+#footer {
+  margin: 1em;
+}
+
+.skill-progress {
+  //background: rgba(0,0,0,0.1);
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.experiences-container {
   @include flexCenter(column-reverse);
   width: 50%;
   .experience {
@@ -94,30 +128,8 @@ body {
   }
 }
 
-#skills {
-  display: flex;
-  width: 33%;
-  flex-direction: column;
-  p.info {
-    font-size: 16pt;
-    margin: .5em 2em;
-  }
-  p.bold {
-    font-weight: bolder;
-  }
-}
-
-#footer {
-  margin: 1em;
-}
-
-.skill-progress {
-  //background: rgba(0,0,0,0.1);
-}
-
-.skill-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#experiences-canvas {
+  background: white;
+  position: absolute;
+  left: 15px;
 }

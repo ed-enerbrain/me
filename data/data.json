@@ -125,8 +125,14 @@
   },
   "experiences": [
     {
-      "start": "2003",
-      "end": "2003",
+      "start": {
+        "year": 2003,
+        "month": 2
+      },
+      "end": {
+        "year": 2003,
+        "month": 11
+      },
       "name": "Junior UI Designer",
       "desc": [
         "Developing UI for banks"
@@ -136,8 +142,14 @@
       "url": "http://www.intesasanpaolo.it"
     },
     {
-      "start": "2004",
-      "end": "2005",
+      "start": {
+        "year": 2004,
+        "month": 2
+      },
+      "end": {
+        "year": 2005,
+        "month": 9
+      },
       "name": "UI/UX Designer",
       "desc": [
         "Developing UI and UX for big insurances company",
@@ -150,8 +162,14 @@
       "url": "http://www.realemutua.it"
     },
     {
-      "start": "2005",
-      "end": "2008",
+      "start": {
+        "year": 2005,
+        "month": 9
+      },
+      "end": {
+        "year": 2008,
+        "month": 7
+      },
       "name": "Senior UI/UX Designer",
       "desc": [
         "I'm starting getting really good at this shit",
@@ -162,8 +180,14 @@
       "url": "http://www.apple.com"
     },
     {
-      "start": "2007",
-      "end": "2009",
+      "start": {
+        "year": 2007,
+        "month": 11
+      },
+      "end": {
+        "year": 2010,
+        "month": 1
+      },
       "name": "Guru UX",
       "desc": [
         "So much expertise that people need me",
@@ -175,8 +199,14 @@
       "url": "http://www.apple.com"
     },
     {
-      "start": "2010",
-      "end": "2014",
+      "start": {
+          "year": 2010,
+          "month": 2
+      },
+      "end": {
+          "year": 2014,
+          "month": 12
+      },
       "name": "CEO",
       "desc": [
         "Leading the world",
@@ -188,8 +218,14 @@
       "url": "http://www.google.com"
     },
     {
-      "start": "2015",
-      "end": "now",
+      "start": {
+          "year": 2015,
+          "month": 3
+      },
+      "end": {
+          "year": 2016,
+          "month": 6
+      },
       "name": "God Mode",
       "desc": [
         "I'm Alpha and Omega",
