@@ -1,204 +1,174 @@
 {
   "bio": {
     "greetings": "Hi, this is",
-    "name": "Mario",
-    "surname": "Rossi",
-    "short_desc": "Experienced UI/UX Designer since 2003",
-    "birth_date": "01/09/1982",
-    "email": "mario.rossi@rossimario.dotcom",
-    "website": "http://rossimario.dotcom"
+    "name": "Edoardo",
+    "surname": "Davini",
+    "short_desc": "In love with JS",
+    "birth_date": "09/08/1989",
+    "email": "fake@email.com",
+    "website": "http://www.designtoweb.it"
   },
   "skills": {
     "frontend": {
-      "info": "FrontEnd useless Skills",
+      "info": "They say I'm a Frontend Dev",
       "skill_list": [
         {
-          "name": "vanillaJS",
-          "value": "80"
-        },
-        {
-          "name": "jQuery",
-          "value": "75"
-        },
-        {
           "name": "AngularJS",
-          "value": "60"
+          "value": "85"
         },
         {
-          "name": "Handlebars",
+          "name": "Angular 5",
+          "value": "35"
+        },
+        {
+          "name": "JQuery",
           "value": "65"
         },
         {
-          "name": "EXTJS",
-          "value": "45"
-        },
-        {
-          "name": "UnderScoreJS",
-          "value": "55"
-        },
-        {
-          "name": "Angular 2",
-          "value": "33"
+          "name": "ReactJS",
+          "value": "30"
         }
       ]
     },
     "UI": {
-      "info": "UI Experiences",
+      "info": "With a lot of experience",
       "skill_list": [
         {
           "name": "HTML5",
           "value": "80"
         },
         {
-          "name": "CSS3",
+          "name": "CSS3 (+SCSS)",
           "value": "85"
-        },
-        {
-          "name": "SCSS",
-          "value": "55"
-        },
-        {
-          "name": "LESSCSS",
-          "value": "50"
         }
       ]
     },
     "backend": {
-      "info": "Backend",
+      "info": "But I'm in love with backend too",
       "skill_list": [
         {
           "name": "nodeJS",
-          "value": "30"
+          "value": "80"
         },
         {
           "name": "Express",
-          "value": "30"
-        },
-        {
-          "name": "php",
-          "value": "25"
-        },
-        {
-          "name": "python",
-          "value": "10"
+          "value": "85"
         },
         {
           "name": "java",
-          "value": "65"
+          "value": "50"
         }
       ]
     },
     "database": {
-      "info": "Database",
+      "info": "And Also databases",
       "skill_list":[
         {
           "name": "MySQL",
-          "value": "55"
+          "value": "65"
         },
         {
           "name": "MongoDB",
-          "value": "30"
+          "value": "60"
+        },
+        {
+          "name": "Sequelize",
+          "value": "75"
+        },
+        {
+          "name": "mongoose",
+          "value": "65"
         }
       ]
     },
     "ide": {
-      "info": "IDE",
+      "info": "And I'm in love with this",
       "skill_list":[
-        {
-          "name": "eclipse",
-          "value": "75"
-        },
         {
           "name": "intelliJ",
           "value": "80"
-        },
-        {
-          "name": "NetBeans",
-          "value": "40"
-        },
-        {
-          "name": "Sencha Architect",
-          "value": "50"
         }
       ]
     }
   },
   "experiences": [
     {
-      "start": "2003",
-      "end": "2003",
-      "name": "Junior UI Designer",
+      "start": "2011",
+      "end": "2013",
+      "name": "Junior J2EE Dev",
       "desc": [
-        "Developing UI for banks"
+        "Developing FrontEnd for banks",
+        "Java, more java, Struts 1.3"
       ],
-      "logo": "imgs/isp.png",
-      "where": "Intesa SanPaolo",
-      "url": "http://www.intesasanpaolo.it"
+      "logo": "http://www.greeneconomynetwork.it/it/repertorio-delle-aziende/ntt-data-italia-spa/logo",
+      "where": "NTT Data",
+      "url": "http://www.nttdata.it"
     },
     {
-      "start": "2004",
-      "end": "2005",
-      "name": "UI/UX Designer",
-      "desc": [
-        "Developing UI and UX for big insurances company",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
-        "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum.",
-        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
-      ],
-      "logo": "imgs/reale.png",
-      "where": "Reale Mutua",
-      "url": "http://www.realemutua.it"
-    },
-    {
-      "start": "2005",
-      "end": "2008",
-      "name": "Senior UI/UX Designer",
-      "desc": [
-        "I'm starting getting really good at this shit",
-        "In nec fermentum metus, at facilisis ante. Donec non sodales justo. Morbi nec cursus felis, dignissim gravida ipsum."
-      ],
-      "logo": "imgs/apple.png",
-      "where": "Apple",
-      "url": "http://www.apple.com"
-    },
-    {
-      "start": "2007",
-      "end": "2009",
-      "name": "Guru UX",
-      "desc": [
-        "So much expertise that people need me",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
-        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
-      ],
-      "logo": "imgs/apple.png",
-      "where": "Apple",
-      "url": "http://www.apple.com"
-    },
-    {
-      "start": "2010",
+      "start": "2013",
       "end": "2014",
-      "name": "CEO",
+      "name": "Junior J2EE Dev",
       "desc": [
-        "Leading the world",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
-        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+        "Developing useless wrong and unfinished projects for big National Company"
       ],
-      "logo": "imgs/google.png",
-      "where": "Google",
-      "url": "http://www.google.com"
+      "logo": "https://pbs.twimg.com/profile_images/479647548047511552/ojfEvV2Z.png",
+      "where": "CSI Piemonte",
+      "url": "http://www.csipiemonte.it/web/it/"
+    },
+    {
+      "start": "2014",
+      "end": "2015",
+      "name": "J2EE Developer",
+      "desc": [
+        "Boring development of FPManager"
+      ],
+      "logo": "http://www.tecnetdati.com/images/logo_tecnetdati.png",
+      "where": "Tecnet Dati",
+      "url": "http://www.tecnetdati.com"
     },
     {
       "start": "2015",
-      "end": "now",
-      "name": "God Mode",
+      "end": "2015",
+      "name": "J2EE Developer",
       "desc": [
-        "I'm Alpha and Omega",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta mauris ut erat facilisis, ac sollicitudin mauris faucibus.",
-        "In consequat ex ut velit porttitor, vitae fermentum libero eleifend."
+        "Back to VTPie"
       ],
-      "logo": "imgs/nwo.png",
-      "where": "New World Order",
-      "url": "http://www.nwo.com"
+      "logo": "http://www.xtphere.com/images/400x150.png",
+      "where": "XTphere",
+      "url": "http://www.xtphere.com"
+    },
+    {
+      "start": "2015",
+      "end": "2016",
+      "name": "JS Developer",
+      "desc": [
+        "LOL Wot?"
+      ],
+      "logo": "http://www.ennova.it/logo.png",
+      "where": "Ennova",
+      "url": "http://www.ennova.it"
+    },
+    {
+      "start": "2016",
+      "end": "2016",
+      "name": "AngularJS Consultant",
+      "desc": [
+        "OH LEE SHEET"
+      ],
+      "logo": "https://www.gft.com/dam/jcr:172f6059-a8b4-4438-9b92-26a5effa38d6/GFT_logo_big.png",
+      "where": "GFT",
+      "url": "https://www.gft.com/it/it/index/"
+    },
+    {
+      "start": "2016",
+      "end": "now",
+      "name": "JS Lead Dev",
+      "desc": [
+        "A fuckin' huge amount of experiences!"
+      ],
+      "logo": "http://cedeo.net/wp-content/uploads/2017/06/logo_cedeo2_head.png",
+      "where": "Cedeo",
+      "url": "http://www.cedeo.net/"
     }
   ]
 }

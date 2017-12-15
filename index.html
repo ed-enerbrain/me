@@ -67,7 +67,7 @@
             <div class="skill-progress">
                 <p {{#ifCond value '>' 59}}class='bold'{{/ifCond}}>{{name}}</p>
                 <div class="item progress-{{value}}">
-                    <div class="radial-inner-bg">{{value}}</div>
+                    <div class="radial-inner-bg">{{value}}<small>{{small}}</small></div>
                 </div>
             </div>
             {{/each}}

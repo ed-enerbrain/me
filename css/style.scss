@@ -18,7 +18,8 @@ body {
     @include flex(row, space-around, flex-start);
   }
 }
-#experiences {
+
+  #experiences {
   @include flexCenter(column-reverse);
   width: 50%;
   .experience {
